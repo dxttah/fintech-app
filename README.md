@@ -89,10 +89,12 @@ npm install
 Create a `.env` file in the project root with the following values:
 
 ```env
-PORT=8000
 MONGODB_URI=mongodb://localhost:27017/fintech-app
 JWT_SECRET=your_jwt_secret_here
+NIBSS_BASE_URL=nibssbypheonix_url
+NIBSS_TOKEN=your_nibssbypheonix_token
 ```
+NibbsbyPheonix docs: https://nibssbyphoenix.onrender.com/api/docs/
 
 ## Run the Application
 
